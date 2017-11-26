@@ -20,7 +20,7 @@
 # end
 
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     return_array = []
     self.each do |key,value|
         if value == arguments
