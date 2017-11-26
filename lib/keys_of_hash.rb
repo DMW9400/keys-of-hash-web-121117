@@ -10,7 +10,7 @@
 class Hash
   def keys_of(*arguments)
     argument_array = []
-    argument_array << arguments
+    argument_array << *arguments
     return_array = []
     self.each do |key,value|
         if value == arguments
