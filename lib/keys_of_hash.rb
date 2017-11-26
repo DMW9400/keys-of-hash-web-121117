@@ -9,6 +9,8 @@
 #   }
 class Hash
   def keys_of(*arguments)
+    argument_array = []
+    
     return_array = []
     self.each do |key,value|
         if value == arguments
