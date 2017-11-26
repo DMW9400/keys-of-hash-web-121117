@@ -24,7 +24,7 @@ class Hash
     return_array = []
     self.each do |key,value|
       arguments.each do |item|
-        if value == arguments
+        if item == value
           return_array << key
         end
     end
