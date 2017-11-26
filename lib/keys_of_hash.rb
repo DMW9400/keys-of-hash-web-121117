@@ -17,6 +17,6 @@ class Hash
           return_array << key
         end
     end
-      return ar
+      return arguments
   end
 end
