@@ -27,6 +27,7 @@ class Hash
         if item == value
           return_array << key
         end
+      end
     end
       return return_array
   end
