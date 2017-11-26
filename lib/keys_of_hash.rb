@@ -9,7 +9,7 @@
 #   }
 class Hash
   def keys_of(*arguments)
-    argument_array = []
+    splat_array = []
     argument_array << *arguments
     return_array = []
     self.each do |key,value|
@@ -17,6 +17,6 @@ class Hash
           return_array << key
         end
     end
-      return return_array
+      return ar
   end
 end
