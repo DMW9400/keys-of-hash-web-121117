@@ -12,11 +12,11 @@ class Hash
     # splat_array = []
     # argument_array << *arguments
     return_array = []
-    self.each do |key,value|
+    arguments.each do |key,value|
         if value == arguments
           return_array << key
         end
     end
-      return arguments
+      return return_arrays
   end
 end
